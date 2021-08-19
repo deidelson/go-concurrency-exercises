@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+golang-api
 
 # Test binary, built with `go test -c`
 *.test
@@ -12,4 +13,16 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+ ./vendor
+ /vendor
+ .vendor
+ vendor
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/vendor/
+
+swagger\.json
