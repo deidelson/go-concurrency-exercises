@@ -1,1 +1,1 @@
-# go-concurrency-exercises
+Concurrency examples, mainly patterns with channels
